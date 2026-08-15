@@ -1,0 +1,33 @@
+#include <iostream>
+#include "PcapLiveDevice.h"
+#include "PcapLiveDeviceList.h"
+
+int main() {
+  const std::vector<pcpp::PcapLiveDevice*>& devList = pcpp::PcapLiveDeviceList::getInstance().getPcapLiveDevicesList();
+  
+  if (devList.empty()) {
+	  std::cerr << "No network interfaces found!" << std::endl;
+	  return 1;
+  }
+  
+  pcpp::PcapLiveDevice* dev = devList[0];
+   
+//  std::string interfaceName = dev->getName();  
+//  std::cout << "Successfully found network interface: " << interfaceName << std::endl;
+
+
+
+
+  bool o = dev->open();
+
+
+  if (o) {
+	  std::cout << "worked";
+  }else{
+	  std::cout << "not work";
+  }
+
+  dev->close();
+
+  return 0;
+}
