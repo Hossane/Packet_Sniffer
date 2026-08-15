@@ -1,3 +1,3 @@
-'''
+```
 sudo setcap cap_net_raw+ep ./build/packet_sniffer
-'''
+```
