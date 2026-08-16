@@ -217,4 +217,12 @@ CMakeFiles/packet_sniffer.dir/main.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/15/bits/codecvt.h \
  /usr/include/c++/15/bits/locale_facets_nonio.tcc \
  /usr/include/c++/15/bits/locale_conv.h \
- /usr/include/c++/15/bits/quoted_string.h
+ /usr/include/c++/15/bits/quoted_string.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/Packet.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/IPv4Layer.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/TLVData.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/IPLayer.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/IPv6Layer.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/IPv6Extensions.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/TcpLayer.h \
+ /home/linuxbrew/.linuxbrew/include/pcapplusplus/UdpLayer.h
