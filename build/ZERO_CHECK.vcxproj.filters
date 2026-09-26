@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\CMakeFiles\50dc0d9b69079145852ec3c321d5d673\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2C2575A9-4776-3DB8-8232-F4047920466F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

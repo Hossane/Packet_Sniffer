@@ -1,0 +1,29 @@
+================================================================================
+Linker Errors
+Generated: 2026-09-26T01:34:35.549Z
+Total Errors: 8
+================================================================================
+
+[LNK2019] (MSVC)
+unresolved external symbol __std_search_1 referenced in function "char const * __cdecl std::_Search_vectorized<char const ,char const >(char const * const,char const * const,char const * const,unsigned __int64)" (??$_Search_vectorized@$$CBD$$CBD@std@@YAPEBDQEBD00_K@Z) [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2001] (MSVC)
+unresolved external symbol __std_search_1 [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2001] (MSVC)
+unresolved external symbol __std_search_1 [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2001] (MSVC)
+unresolved external symbol __std_search_1 [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol _Thrd_sleep_for referenced in function "void __cdecl std::this_thread::sleep_for<__int64,struct std::ratio<1,1> >(class std::chrono::duration<__int64,struct std::ratio<1,1> > const &)" (??$sleep_for@_JU?$ratio@$00$00@std@@@this_thread@std@@YAXAEBV?$duration@_JU?$ratio@$00$00@std@@@chrono@1@@Z) [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2001] (MSVC)
+unresolved external symbol _Thrd_sleep_for [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK2019] (MSVC)
+unresolved external symbol __std_find_end_1 referenced in function "char const * __cdecl std::_Find_end_vectorized<char const ,char const >(char const * const,char const * const,char const * const,unsigned __int64)" (??$_Find_end_vectorized@$$CBD$$CBD@std@@YAPEBDQEBD00_K@Z) [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]
+
+[LNK1120] (MSVC)
+3 unresolved externals [C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj]

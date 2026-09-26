@@ -1,0 +1,10 @@
+^C:\USERS\HOSSANE\DESKTOP\PACKET-SNIFFER\PACKET_SNIFFER\BUILD\CMAKEFILES\50DC0D9B69079145852EC3C321D5D673\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer -BC:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/PacketSniffer.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
