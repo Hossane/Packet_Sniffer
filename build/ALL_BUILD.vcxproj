@@ -174,9 +174,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\packet_sniffer.vcxproj">
-      <Project>{1B81F283-1500-322C-A5DB-3CCC1F9C05C4}</Project>
-      <Name>packet_sniffer</Name>
+    <ProjectReference Include="C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\test_flags.vcxproj">
+      <Project>{E3F08B28-3721-34DA-A030-364FE9112E19}</Project>
+      <Name>test_flags</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

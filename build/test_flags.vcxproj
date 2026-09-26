@@ -22,11 +22,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1B81F283-1500-322C-A5DB-3CCC1F9C05C4}</ProjectGuid>
+    <ProjectGuid>{E3F08B28-3721-34DA-A030-364FE9112E19}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
-    <ProjectName>packet_sniffer</ProjectName>
+    <ProjectName>test_flags</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -60,26 +60,26 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">packet_sniffer.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">packet_sniffer</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_flags.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">test_flags</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">packet_sniffer.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">packet_sniffer</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_flags.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">test_flags</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">packet_sniffer.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">packet_sniffer</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_flags.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">test_flags</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">packet_sniffer.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">packet_sniffer</TargetName>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_flags.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">test_flags</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
@@ -124,8 +124,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Debug/packet_sniffer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Debug/packet_sniffer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Debug/test_flags.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Debug/test_flags.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -173,8 +173,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Release/packet_sniffer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Release/packet_sniffer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Release/test_flags.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/Release/test_flags.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -222,8 +222,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/MinSizeRel/packet_sniffer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/MinSizeRel/packet_sniffer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/MinSizeRel/test_flags.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/MinSizeRel/test_flags.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -270,8 +270,8 @@
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/RelWithDebInfo/packet_sniffer.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/RelWithDebInfo/packet_sniffer.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/RelWithDebInfo/test_flags.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Hossane/Desktop/packet-sniffer/Packet_Sniffer/build/RelWithDebInfo/test_flags.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -336,6 +336,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\flags.cpp" />
     <ClCompile Include="C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\packFunc.cpp" />
   </ItemGroup>
   <ItemGroup />

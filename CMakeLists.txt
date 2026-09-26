@@ -13,13 +13,16 @@ set(CMAKE_PREFIX_PATH
 # Find PcapPlusPlus (it will automatically look for wpcap.lib via its config)
 find_package(PcapPlusPlus REQUIRED)
 
-# 2. Define your executable target
-add_executable(packet_sniffer main.cpp)
-
-# 3. Link PcapPlusPlus targets to your executable
-# This automatically handles include paths, library files, and transitive links (like libpcap)
-target_link_libraries(packet_sniffer PRIVATE 
-    PcapPlusPlus::Pcap++ 
-    PcapPlusPlus::Packet++ 
+add_library(packfunc_headers INTERFACE)
+target_include_directories(packfunc_headers INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_libraries(packfunc_headers INTERFACE
+    PcapPlusPlus::Pcap++
+    PcapPlusPlus::Packet++
     PcapPlusPlus::Common++
 )
+
+# add_executable(packet_sniffer packFunc.cpp)
+# target_link_libraries(packet_sniffer PRIVATE packfunc_headers)
+
+add_executable(test_flags flags.cpp packFunc.cpp)
+target_link_libraries(test_flags PRIVATE packfunc_headers)

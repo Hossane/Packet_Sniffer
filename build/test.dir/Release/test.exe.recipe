@@ -5,10 +5,7 @@
       <FullPath>C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\Release\test_flags.exe</FullPath>
-    </ProjectOutput>
-    <ProjectOutput>
-      <FullPath>C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Hossane\Desktop\packet-sniffer\Packet_Sniffer\build\Release\test.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
